@@ -1,0 +1,260 @@
+.container{
+  
+  height: 700px;
+ width: 100%;
+ background-image: url(./assets/backgroung_img.jpg);
+ border-bottom: 200px;
+overflow: hidden;
+position: relative;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(135, 124, 194, 0.5); /* rgba mein alpha channel bhi set kiya gaya hai */
+  overflow: hidden;
+}
+#navbar{
+  top: 42px;
+left: 150px;
+width: 100%;
+height: 70px;
+
+opacity: 1;
+margin-top: 42px;
+display: flex;
+overflow: hidden;
+
+
+}
+
+#logo-container{
+  top: 42px;
+/* left: 150px;
+width: 312px; */
+height: 70px;
+/* UI Properties */
+background: transparent url('img/Group 1758.pn') 0% 0% no-repeat padding-box;
+opacity: 1;
+
+margin-left: 150px;
+
+}
+#logo{
+border: none;
+  height: 70px;
+  width: 30%;
+}
+.btn{
+  background: transparent;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  margin-left: 50px;
+  cursor: pointer;
+ 
+
+}
+.btn:hover{
+  color: black;
+  border-bottom: white;
+ }
+
+#contactBtn{
+  background-color: rgb(255,236,5);
+  color: black;
+  border-radius: 20px;
+}
+
+#contactBtn:hover{
+  color: white;
+  background-color: black;
+}
+
+
+#btn-container{
+  
+  margin-left: 280px;
+}
+.text-content{
+ 
+  top: 209px;
+/* left: 150px; */
+margin-left: 150px;
+width: 500px;
+height: 146px;
+
+
+}
+.text-content >h1{
+  text-align: left;
+  font: normal normal medium ;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 800;
+  opacity: 1;
+
+}
+.para{
+  margin-top: 50px;
+left: 150px;
+width: 400px;
+height: 100px;
+
+}
+.para>p{
+  color: white;
+}
+.main-content{
+ 
+  display: flex;
+}
+.video-content{
+ 
+  width: 50%;
+  height: 400px;
+}
+#startbtn{
+  position: absolute; 
+  top: 230px;
+  left: 900px; 
+  z-index: 999;
+  height: 100px;
+  cursor: pointer;
+  width: 20%;
+  
+}
+.vedio{
+ 
+  height: 300px;
+  width: 70%;
+  margin-left: 150px;
+}
+.vedio>img{
+  height: 300px;
+  width: 100%;
+}
+#main-content-btn{
+
+  height: 150px;
+}
+#bookDemo-btn{
+  background-color: rgb(255,236,5);
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 25px;
+}
+#explore-btn{
+  margin-left: 30px;
+  background: transparent;
+  border: none;
+  color: white;
+  transition: font-size 0.5s ease;
+}
+#explore-btn:hover{
+color: yellow;
+font-size: 15px;
+
+}
+.fontbtn{
+  transition: font-size 0.5s ease;
+ color: rgb(159,151,173);
+}
+
+.homebtn{
+  width: 50px;
+  border-bottom: 4px solid yellow;
+  
+ 
+}
+.fontbtn:hover{
+  font-size: 16px;
+  color: white;
+}
+#btn-logo>img:hover{
+  color: yellow;
+}
+#imglogo{
+ 
+  height: 25px;
+ width: 35px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* Your styles for small devices here */
+  
+  #navbar{
+  
+    width: 100%;
+  }
+  #logo-container {
+    height: 40px;
+    border: none;
+    margin-left: 10px;
+  }
+  
+  #logo-container > img {
+    width: 150px; /* Adjust image width for small devices */
+  }
+ 
+  #btn-container {
+    margin-left: 0; /* Adjusted to 0 for left side */
+    width: 100%;
+  }
+  
+  .btn {
+    font-size: 9px;
+    margin-left: 0; /* Adjusted font size for small devices */
+  }
+  
+  .main-content{
+    display: inline;
+
+  }
+  #main-content-btn{
+   
+    margin-top: 200px;
+  }
+  .video-content{
+    margin-top: 50px;
+  }
+   .vedio>img{
+   height: 200px;
+   width: 200px;
+   
+  }
+  .text-content{
+  
+    margin-left: 20px;
+    
+  }
+  .text-content>h1{
+    font-size: 30px;
+  }
+
+  .container {
+    height: 850px; 
+    border-bottom: 100px; 
+    background-size: cover; 
+    overflow: hidden;
+  }
+  
+  .overlay {
+    background-color: rgba(135, 124, 194, 0.7); /* Adjusted alpha value for small devices */
+  }
+
+}
+
+
+
+
